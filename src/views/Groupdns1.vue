@@ -277,7 +277,7 @@ export default {
           copyIPDomainData = copyIPDomainData + '\n' +  copyVariable
 
         })
-      console.log(copyIPDomainData)
+      // console.log(copyIPDomainData)
       this.copyPageData = copyIPDomainData.trim();
         this.$copyText(this.copyPageData).then(() => {
           // 复制成功回调
